@@ -10,13 +10,9 @@ function getContract(name) {
 }
 
 const Jurisdiction = getContract('Jurisdiction');
-const DummyValidator = getContract('DummyValidator');
-const SampleToken = getContract('SampleToken');
-const SampleCrowdsale = getContract('SampleCrowdsale');
+const Validator = getContract('DummyValidator');
 
 export {
   Jurisdiction,
-  DummyValidator,
-  SampleToken,
-  SampleCrowdsale
+  Validator
 }

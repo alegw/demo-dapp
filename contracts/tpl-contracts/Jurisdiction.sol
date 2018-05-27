@@ -7,6 +7,11 @@ contract Jurisdiction is Ownable, Registry {
 
   mapping(address => mapping(string => uint256)) attributes;
 
+  // Participants in the Venezuela jurisdiction have the following attributes: 
+  // "isANaturalPerson"
+  // "isAnIDHolder"
+  // "isRegisteredToVote"
+
   mapping(address => bool) validators;
 
   modifier onlyValidator() {
